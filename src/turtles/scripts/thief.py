@@ -17,7 +17,7 @@ import time
 class Acceleration:
 
 	def __init__(self):
-		rospy.init_node("robber")
+		rospy.init_node("thief")
 
 		self.pos = Pose()
 		self.velmsg = Twist()
