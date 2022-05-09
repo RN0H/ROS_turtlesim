@@ -14,7 +14,7 @@
 
 	<node name="robber" 
 	pkg="turtles" 
-	type="accel.py" 
+	type="thief.py" 
 	output="screen"/>
 
 	<node name="cop" 
