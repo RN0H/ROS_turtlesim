@@ -1,0 +1,29 @@
+<launch>
+	
+
+
+	<node name="turtlego" 
+	pkg="turtlesim" 
+	type="turtlesim_node" 
+	output="screen"/>
+
+	<node name="spawner" 
+	pkg="turtles" 
+	type="turtlespawn.py" 
+	output="screen"/>
+
+	<node name="robber" 
+	pkg="turtles" 
+	type="accel.py" 
+	output="screen"/>
+
+	<node name="cop" 
+	pkg="turtles" 
+	type="cop.py" 
+	output="screen"/>
+
+	
+
+
+
+</launch>

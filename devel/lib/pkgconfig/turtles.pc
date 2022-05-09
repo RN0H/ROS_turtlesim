@@ -1,0 +1,8 @@
+prefix=/home/rohan/turtlesim_ws/devel
+
+Name: turtles
+Description: Description of turtles
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
