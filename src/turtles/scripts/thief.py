@@ -137,7 +137,7 @@ if __name__ == "__main__":
 		while not rospy.is_shutdown():
 			Acceleration().move()
 			rospy.loginfo("Next coordinates..")
-			rospy.sleep(1)
+			rospy.sleep(0.1)
 			
 	except rospy.ROSInterruptException:
 		pass

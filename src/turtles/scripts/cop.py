@@ -39,8 +39,8 @@ class police:
 			vel = Twist()
 			angle_error     = math.atan2((target.y - self.mypose.y), (target.x - self.mypose.x)) - self.mypose.theta
 			distance_error  = math.pow(math.pow(target.y - self.mypose.y, 2) + math.pow(target.x - self.mypose.x, 2), 0.5)
-			vel.linear.x    = 2*distance_error
-			vel.angular.z   = 6*angle_error
+			vel.linear.x    = 0.5*distance_error
+			vel.angular.z   = 3*angle_error
 
 			self.vel_pub.publish(vel)
 			flag = 0
